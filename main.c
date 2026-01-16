@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "Main/Console.h"
+#include "Main/3drender.h"
 
 #ifndef TIME_WRAPPER_H
 #define TIME_WRAPPER_H
