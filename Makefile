@@ -1,7 +1,7 @@
-CFLAGS = -Wall -O3 -march=native
+CFLAGS = -Os -march=native -static
 
 app: main.c
-	gcc $(CFLAGS) main.c -o app
+	gcc $(CFLAGS) Main/Console.c main.c -o app
 
 clean:
 	rm -f app
